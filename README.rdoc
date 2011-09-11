@@ -3,7 +3,6 @@
 
 virustotalapi is a Ruby module that interfaces with the VirusTotal API via HTTP POST and JSON responses. The code was derived from Takahiro Matsuji's snippet at https://gist.gituhub.com/520909
 
-
 == FEATURES/PROBLEMS:
 
 The module implements the following: 
@@ -49,7 +48,8 @@ p vt.vtapistatus
 
 == REQUIREMENTS:
 
-VirusTotal API Key 
+- VirusTotal API Key 
+- rubygems: json, rest-client 
 
 == INSTALL:
 
